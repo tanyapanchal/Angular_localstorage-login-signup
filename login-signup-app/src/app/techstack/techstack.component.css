@@ -1,0 +1,44 @@
+/* home.component.css */
+/* Styles for tech stack section */
+.tech-stack {
+    margin-top: 20px;
+    background-color: black;
+    height: 70vh;
+    display: block;
+  
+  }
+  
+  .tech-stack h2 {
+    color: white; 
+    margin-bottom: 10px;
+    font-size: 50px;
+    text-align: center;
+       
+  }
+  
+  .tech-stack ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: justify;
+    margin-top: 5rem;
+    margin-left: 25rem;
+
+  }
+  
+  .tech-stack li {
+    margin-bottom: 5px;
+    color: white;
+    
+    font-size: 1.5rem;
+  }
+  
+  .tech-stack li::before {
+    content: "\2022"; /* Bullet character */
+    color: white; /* Yellow color for bullet */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    
+  }
+  

@@ -1,0 +1,44 @@
+/* home.component.css */
+.home-content {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+ 
+}
+.container{
+  margin-top: 5rem;
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.info{
+  font-family: sans-serif;
+  
+}
+.card2{
+  /* background-color: aqua; */
+  width: 25vw;
+}
+.name{
+  font-size: 5rem;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}
+
+#home {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.container {
+  padding-bottom: 70px;
+}

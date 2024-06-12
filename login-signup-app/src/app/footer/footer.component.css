@@ -1,0 +1,35 @@
+/* footer.component.css */
+
+/* Footer container */
+.footer {
+    display: flex;
+    align-items: flex-end;
+
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px 0;
+  }
+  
+  /* Footer content */
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Icon links */
+  .icon-link {
+    color:white; /* Dark gray text color */
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 24px; /* Icon size */
+  }
+  
+  .icon-link:hover {
+    color: #020202; /* Blue text color on hover */
+  }
+  
+  /* Copyright text */
+  .copyright-text {
+    color: #e3f2ff; /* Gray text color */
+  }
+  
